@@ -1,0 +1,7 @@
+^dist.ini
+^MANIFEST.SKIP
+Escape-Houdini.*
+^\.gitignore
+^\.git
+^\.build
+
