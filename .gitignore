@@ -1,2 +1,9 @@
 /Escape-Houdini*
 .build
+lib/Escape/Houdini.c
+lib/Escape/Houdini.o
+blib
+MYMETA.
+MYMETA.json
+MYMETA.yml
+Build
