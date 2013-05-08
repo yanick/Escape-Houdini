@@ -35,6 +35,12 @@ __END__
 I<Escape::Houdini> is a wrapper around the zero-depedency, minimalistic
 C web escaping library Houdini.
 
+This version of I<Escape::Houdini> has been built against 
+commit 
+I<e6f0ec96b85578a2fd8ab79af84493cad3a84cfb>
+(Wed Apr 17 17:24:20 2013 +0200) 
+of Houdini.
+
 B<WARNING>: I'm a n00b at XS, so until this module get reviewed by somebody
 who knows what they are doing, take it with a grain of salt.
 
