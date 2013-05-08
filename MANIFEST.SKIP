@@ -1,3 +1,5 @@
+^blib
+^_build
 ^dist.ini
 ^MANIFEST.SKIP
 Escape-Houdini.*
@@ -5,3 +7,6 @@ Escape-Houdini.*
 ^\.git
 ^\.build
 
+\.o$
+lib/Escape/Houdini.c
+^MYMETA

@@ -13,13 +13,15 @@ use warnings;
 use parent qw/ DynaLoader Exporter /;
 
 our %EXPORT_TAGS = (
-    all => [ qw/ escape_html / ]
+    all => [ qw/ escape_html unescape_html escape_xml 
+        escape_uri escape_url escape_href
+        unescape_uri unescape_url 
+        escape_js unescape_js
+        / ]
 );
 
 our @EXPORT_OK = @{$EXPORT_TAGS{all}};
 
-our $VERSION = '0.0.1';
-
-__PACKAGE__->bootstrap($VERSION);
+__PACKAGE__->bootstrap;
 
 1;
