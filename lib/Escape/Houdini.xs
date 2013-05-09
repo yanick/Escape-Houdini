@@ -20,6 +20,7 @@ SV *_escape_html(SV *input){
     }
 
     result = newSVpvn( buffer.ptr, buffer.size );
+    gh_buf_free(&buffer);
     return result;
 }
 
