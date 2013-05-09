@@ -4,11 +4,13 @@ use Test::More tests => 2;
 use Escape::Houdini qw(escape_html);
 
 subtest 'refcount' => sub {
+    eval 'use Devel::Peek qw(SvREFCNT Dump); 1'
+        or plan skip_all => 'test requires Devel::Peek';
+
     plan tests => 1;
-    use Devel::Peek qw(SvREFCNT Dump);
     my $sv = escape_html('test');
-    is SvREFCNT( $sv ), 1, 'Correct refcount means this should be garbage-collected properly';
-    diag Dump( $sv );
+    is SvREFCNT( $sv ), 1, 'Correct refcount means this should be garbage-collected properly'
+        or diag Dump( $sv );
 };
 
 subtest 'leaktrace' => sub {

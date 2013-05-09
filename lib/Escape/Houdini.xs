@@ -41,6 +41,7 @@ SV *_unescape_html(SV *input){
     }
 
     result = newSVpvn( buffer.ptr, buffer.size );
+    gh_buf_free(&buffer);
     return result;
 }
 
@@ -61,6 +62,7 @@ SV *_escape_xml(SV *input){
     }
 
     result = newSVpvn( buffer.ptr, buffer.size );
+    gh_buf_free(&buffer);
     return result;
 }
 
@@ -81,6 +83,7 @@ SV *_escape_url(SV *input){
     }
 
     result = newSVpvn( buffer.ptr, buffer.size );
+    gh_buf_free(&buffer);
     return result;
 }
 
@@ -101,6 +104,7 @@ SV *_escape_uri(SV *input){
     }
 
     result = newSVpvn( buffer.ptr, buffer.size );
+    gh_buf_free(&buffer);
     return result;
 }
 
@@ -121,6 +125,7 @@ SV *_escape_href(SV *input){
     }
 
     result = newSVpvn( buffer.ptr, buffer.size );
+    gh_buf_free(&buffer);
     return result;
 }
 
@@ -142,6 +147,7 @@ SV *_unescape_url(SV *input){
     }
 
     result = newSVpvn( buffer.ptr, buffer.size );
+    gh_buf_free(&buffer);
     return result;
 }
 
@@ -162,6 +168,7 @@ SV *_unescape_uri(SV *input){
     }
 
     result = newSVpvn( buffer.ptr, buffer.size );
+    gh_buf_free(&buffer);
     return result;
 }
 
@@ -182,6 +189,7 @@ SV *_escape_js(SV *input){
     }
 
     result = newSVpvn( buffer.ptr, buffer.size );
+    gh_buf_free(&buffer);
     return result;
 }
 
@@ -203,6 +211,7 @@ SV *_unescape_js(SV *input){
     }
 
     result = newSVpvn( buffer.ptr, buffer.size );
+    gh_buf_free(&buffer);
     return result;
 }
 

@@ -1,9 +1,15 @@
 use strict;
 use warnings;
 
-use Test::More tests => 1; 
-use Test::MemoryGrowth;
+use Test::More; 
 use Escape::Houdini qw/ :all /;
+
+eval "use Test::MemoryGrowth; 1" 
+    or plan skip_all => 'Test::MemoryGrowth required for tests';
+
+plan tests => 1;
+
+eval q!
 
 no_growth {
     escape_html( "<body>" );
@@ -28,6 +34,6 @@ no_growth {
 
     escape_js( "foo\nbar" );
     unescape_js( 'foo\nbar' );
-
 }
 
+!;
