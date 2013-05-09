@@ -1,0 +1,39 @@
+---
+abstract: 'Perl API to Houdini, a zero-dependency C web escaping library'
+author:
+  - 'Yanick Champoux <yanick@cpan.org>'
+build_requires:
+  File::Find: 0
+  File::Temp: 0
+  Module::Build: 0.3601
+  Test::Exception: 0
+  Test::More: 0.88
+configure_requires:
+  Module::Build: 0.3601
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Escape-Houdini
+provides:
+  Escape::Houdini:
+    file: lib/Escape/Houdini.pm
+    version: 0.1_0
+requires:
+  DynaLoader: 0
+  Exporter: 0
+  parent: 0
+  strict: 0
+  warnings: 0
+resources:
+  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Escape-Houdini
+  homepage: http://search.cpan.org/dist/Escape-Houdini/
+  repository: https://github.com/yanick/Escape-Houdini.git
+version: 0.1_0
+x_author_pledge:
+  version: 1
+x_authority: cpan:YANICK
+x_contributors:
+  - 'Mike Doherty <doherty@cs.dal.ca>'

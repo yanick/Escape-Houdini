@@ -1,0 +1,47 @@
+NAME
+    Escape::Houdini - Perl API to Houdini, a zero-dependency C web escaping
+    library
+
+VERSION
+    version 0.1_0
+
+SYNOPSIS
+        use Escape::Houdini ':all';
+
+        my $escaped = escape_html( '<foo>' );
+        # $escaped is now '&lt;foo&gt;'
+
+DESCRIPTION
+    *Escape::Houdini* is a wrapper around the zero-depedency, minimalistic C
+    web escaping library Houdini.
+
+    This version of *Escape::Houdini* has been built against commit
+    *e6f0ec96b85578a2fd8ab79af84493cad3a84cfb* (Wed Apr 17 17:24:20 2013
+    +0200) of Houdini.
+
+    WARNING: I'm a n00b at XS, so until this module get reviewed by somebody
+    who knows what they are doing, take it with a grain of salt.
+
+FUNCTIONS
+  escape_html( $text )
+  unescape_html( $text )
+  escape_xml( $text )
+  escape_uri( $text )
+  unescape_uri( $text )
+  escape_url( $text )
+  unescape_url( $text )
+  escape_href( $text )
+  escape_js( $text )
+  unescape_js( $text )
+SEE ALSO
+    Houdini (natch) - <https://github.com/vmg/houdini>
+
+AUTHOR
+    Yanick Champoux <yanick@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2013 by Yanick Champoux.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

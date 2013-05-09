@@ -1,4 +1,10 @@
 package Escape::Houdini;
+BEGIN {
+  $Escape::Houdini::AUTHORITY = 'cpan:YANICK';
+}
+{
+  $Escape::Houdini::VERSION = '0.1_0';
+}
 # ABSTRACT: Perl API to Houdini, a zero-dependency C web escaping library
 
 
@@ -23,6 +29,16 @@ __PACKAGE__->bootstrap;
 
 __END__
 
+=pod
+
+=head1 NAME
+
+Escape::Houdini - Perl API to Houdini, a zero-dependency C web escaping library
+
+=head1 VERSION
+
+version 0.1_0
+
 =head1 SYNOPSIS
 
     use Escape::Houdini ':all';
@@ -44,28 +60,41 @@ of Houdini.
 B<WARNING>: I'm a n00b at XS, so until this module get reviewed by somebody
 who knows what they are doing, take it with a grain of salt.
 
-=func escape_html( $text )
+=head1 FUNCTIONS
 
-=func unescape_html( $text )
+=head2 escape_html( $text )
 
-=func escape_xml( $text )
+=head2 unescape_html( $text )
 
-=func escape_uri( $text )
+=head2 escape_xml( $text )
 
-=func unescape_uri( $text )
+=head2 escape_uri( $text )
 
-=func escape_url( $text )
+=head2 unescape_uri( $text )
 
-=func unescape_url( $text )
+=head2 escape_url( $text )
 
-=func escape_href( $text )
+=head2 unescape_url( $text )
 
-=func escape_js( $text )
+=head2 escape_href( $text )
 
-=func unescape_js( $text )
+=head2 escape_js( $text )
+
+=head2 unescape_js( $text )
 
 =head1 SEE ALSO
 
 Houdini (natch) - L<https://github.com/vmg/houdini>
+
+=head1 AUTHOR
+
+Yanick Champoux <yanick@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Yanick Champoux.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut

@@ -1,5 +1,8 @@
 Revision history for Escape-Houdini
 
-{{$NEXT}}
+0.1_0 2013-05-08
+ - First (beta) version, unleashed on an unsuspecting world.
 
-  - First (beta) version, unleashed on an unsuspecting world.
+ [STATISTICS]
+ - code churn: 12 files changed, 345 insertions(+), 56 deletions(-)
+
