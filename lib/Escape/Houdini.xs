@@ -11,7 +11,7 @@
 	    char *src_string;                                      \
 	                                                           \
 	    if( !SvPOK(input) && !SvNOK(input) && !SvIOK(input) ) {\
-	        croak("name argument not a string");               \
+	        croak( #name "() argument not a string");            \
 	    }                                                      \
 	                                                           \
 	    src_string = SvPV(input, slen);                        \

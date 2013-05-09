@@ -4,6 +4,7 @@ Revision history for Escape-Houdini
  [API CHANGES]
 
  [BUG FIXES]
+ - Fix error message in .xs file.
 
  [DOCUMENTATION]
 
