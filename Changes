@@ -1,18 +1,11 @@
 Revision history for Escape-Houdini
 
-{{$NEXT}}
- [API CHANGES]
-
+0.1.2 2013-05-14
  [BUG FIXES]
  - Forgot to add the tags.
 
- [DOCUMENTATION]
-
- [ENHANCEMENTS]
-
- [NEW FEATURES]
-
  [STATISTICS]
+ - code churn: 2 files changed, 13 insertions(+), 2 deletions(-)
 
 0.1.1 2013-05-14
  [BUG FIXES]
