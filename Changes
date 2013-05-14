@@ -1,18 +1,11 @@
 Revision history for Escape-Houdini
 
-{{$NEXT}}
- [API CHANGES]
-
+0.1.1 2013-05-14
  [BUG FIXES]
  - Fix error message in .xs file.
 
- [DOCUMENTATION]
-
- [ENHANCEMENTS]
-
- [NEW FEATURES]
-
  [STATISTICS]
+ - code churn: 6 files changed, 434 insertions(+), 6 deletions(-)
 
 0.1.0_0 2013-05-08
  - First (beta) version, unleashed on an unsuspecting world.
