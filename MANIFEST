@@ -11,6 +11,7 @@ META.yml
 README
 README.mkdn
 SIGNATURE
+contrib/benchmark.pl
 houdini/COPYING
 houdini/Makefile
 houdini/README.md
