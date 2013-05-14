@@ -12,7 +12,11 @@ our %EXPORT_TAGS = (
         escape_uri escape_url escape_href
         unescape_uri unescape_url 
         escape_js unescape_js
-        / ]
+        / ],
+    html => [ qw/ escape_html unescape_html /],
+    uri => [ qw/ escape_uri unescape_uri /],
+    url => [ qw/ escape_url unescape_url /],
+    js  => [ qw/ escape_js unescape_js /],
 );
 
 our @EXPORT_OK = @{$EXPORT_TAGS{all}};
