@@ -1,18 +1,11 @@
 Revision history for Escape-Houdini
 
-{{$NEXT}}
- [API CHANGES]
-
- [BUG FIXES]
-
- [DOCUMENTATION]
-
+0.1.3_0 2013-05-26
  [ENHANCEMENTS]
  - Don't make buffer.c assumes that there's a MIN macro.
 
- [NEW FEATURES]
-
  [STATISTICS]
+ - code churn: 3 files changed, 11 insertions(+), 3 deletions(-)
 
 0.1.2 2013-05-14
  [BUG FIXES]
