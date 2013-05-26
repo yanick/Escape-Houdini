@@ -8,6 +8,7 @@ Revision history for Escape-Houdini
  [DOCUMENTATION]
 
  [ENHANCEMENTS]
+ - Don't make buffer.c assumes that there's a MIN macro.
 
  [NEW FEATURES]
 
