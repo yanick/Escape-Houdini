@@ -1,6 +1,8 @@
 Revision history for Escape-Houdini
 
 {{$NEXT}}
+ - Promote v0.1.3_0 to stable.
+
  [API CHANGES]
 
  [BUG FIXES]
