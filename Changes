@@ -8,6 +8,8 @@ Revision history for Escape-Houdini
  [DOCUMENTATION]
 
  [ENHANCEMENTS]
+ - Sync the houdini code with the actively maintained fork
+    of Christian Bundy. (GH#3)
 
  [NEW FEATURES]
 

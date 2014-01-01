@@ -40,11 +40,9 @@ I<Escape::Houdini> is a wrapper around the zero-depedency, minimalistic
 web escaping C library Houdini.
 
 This version of I<Escape::Houdini> has been built against 
-commit 
-I<e6f0ec96b85578a2fd8ab79af84493cad3a84cfb>
-(Wed Apr 17 17:24:20 2013 +0200) 
-of Houdini, plus a mini-patch from your truly 
-(see L<https://github.com/vmg/houdini/pull/13>).
+the commit
+L<https://github.com/christianbundy/houdini/commit/1fcafc310573b0f91bd4fc77b22b95bc4e6ecbff>
+of Houdini.
 
 =head1 EXPORTS
 
@@ -98,5 +96,7 @@ See L<https://github.com/vmg/houdini>
 =head1 SEE ALSO
 
 Houdini (natch) - L<https://github.com/vmg/houdini>
+
+The active fork currently used - L<https://github.com/christianbundy/houdini>
 
 =cut
