@@ -3,8 +3,11 @@ use warnings;
 use Test::More tests => 2;
 use Escape::Houdini qw(escape_html);
 
+my $can_dump;
+
 subtest 'refcount' => sub {
-    eval 'use Devel::Peek qw(SvREFCNT Dump); 1'
+    BEGIN { $can_dump = eval 'use Devel::Peek qw(SvREFCNT Dump); 1' }
+    $can_dump
         or plan skip_all => 'test requires Devel::Peek';
 
     plan tests => 1;
