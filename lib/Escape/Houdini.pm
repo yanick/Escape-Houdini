@@ -1,6 +1,9 @@
 package Escape::Houdini;
+BEGIN {
+  $Escape::Houdini::AUTHORITY = 'cpan:YANICK';
+}
 # ABSTRACT: Perl API to Houdini, a zero-dependency C web escaping library
-
+$Escape::Houdini::VERSION = '0.2.1';
 
 use strict;
 use warnings;
@@ -27,6 +30,16 @@ __PACKAGE__->bootstrap;
 
 __END__
 
+=pod
+
+=head1 NAME
+
+Escape::Houdini - Perl API to Houdini, a zero-dependency C web escaping library
+
+=head1 VERSION
+
+version 0.2.1
+
 =head1 SYNOPSIS
 
     use Escape::Houdini ':all';
@@ -44,6 +57,48 @@ the commit
 L<https://github.com/christianbundy/houdini/commit/1fcafc310573b0f91bd4fc77b22b95bc4e6ecbff>
 of Houdini.
 
+=head1 FUNCTIONS
+
+=head2 escape_html( $text )
+
+See L<https://github.com/vmg/houdini>
+
+=head2 unescape_html( $text )
+
+See L<https://github.com/vmg/houdini>
+
+=head2 escape_xml( $text )
+
+See L<https://github.com/vmg/houdini>
+
+=head2 escape_uri( $text )
+
+See L<https://github.com/vmg/houdini>
+
+=head2 unescape_uri( $text )
+
+See L<https://github.com/vmg/houdini>
+
+=head2 escape_url( $text )
+
+See L<https://github.com/vmg/houdini>
+
+=head2 unescape_url( $text )
+
+See L<https://github.com/vmg/houdini>
+
+=head2 escape_href( $text )
+
+See L<https://github.com/vmg/houdini>
+
+=head2 escape_js( $text )
+
+See L<https://github.com/vmg/houdini>
+
+=head2 unescape_js( $text )
+
+See L<https://github.com/vmg/houdini>
+
 =head1 EXPORTS
 
 I<Escape::Houdini> doesn't export any function by default. Functions can be  
@@ -52,51 +107,21 @@ I<unescape_html>), I<:uri> (for I<escape_uri> and I<unescape_uri>),
 I<:url> (for I<escape_url> and I<unescape_url>), I<:js> (for I<escape_js>
 and I<unescape_js>) and I<:all> (for... well, all of them).
 
-
-=func escape_html( $text )
-
-See L<https://github.com/vmg/houdini>
-
-=func unescape_html( $text )
-
-See L<https://github.com/vmg/houdini>
-
-=func escape_xml( $text )
-
-See L<https://github.com/vmg/houdini>
-
-=func escape_uri( $text )
-
-See L<https://github.com/vmg/houdini>
-
-=func unescape_uri( $text )
-
-See L<https://github.com/vmg/houdini>
-
-=func escape_url( $text )
-
-See L<https://github.com/vmg/houdini>
-
-=func unescape_url( $text )
-
-See L<https://github.com/vmg/houdini>
-
-=func escape_href( $text )
-
-See L<https://github.com/vmg/houdini>
-
-=func escape_js( $text )
-
-See L<https://github.com/vmg/houdini>
-
-=func unescape_js( $text )
-
-See L<https://github.com/vmg/houdini>
-
 =head1 SEE ALSO
 
 Houdini (natch) - L<https://github.com/vmg/houdini>
 
 The active fork currently used - L<https://github.com/christianbundy/houdini>
+
+=head1 AUTHOR
+
+Yanick Champoux <yanick@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Yanick Champoux.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
