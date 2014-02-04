@@ -4,8 +4,6 @@ Revision history for Escape-Houdini
  [API CHANGES]
 
  [BUG FIXES]
- - Tweak test to play nice with new Devel::Peek prototype. 
-    (Tony Cook, RT#92569)
 
  [DOCUMENTATION]
 
@@ -14,6 +12,14 @@ Revision history for Escape-Houdini
  [NEW FEATURES]
 
  [STATISTICS]
+
+0.2.1 2014-02-03
+ [BUG FIXES]
+ - Tweak test to play nice with new Devel::Peek prototype.  (Tony Cook,
+   RT#92569)
+
+ [STATISTICS]
+ - code churn: 3 files changed, 18 insertions(+), 3 deletions(-)
 
 0.2.0 2014-01-01
  [ENHANCEMENTS]
