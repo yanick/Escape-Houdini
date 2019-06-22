@@ -8,3 +8,6 @@ MYMETA.json
 MYMETA.yml
 Build
 _build
+tags
+tags.lock
+tags.temp
