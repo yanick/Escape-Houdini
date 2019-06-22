@@ -6,13 +6,19 @@ Revision history for Escape-Houdini
   [ BUG FIXES ]
 
   [ DOCUMENTATION ]
-  * Small improvements.
 
   [ ENHANCEMENTS ]
 
   [ NEW FEATURES ]
 
   [ STATISTICS ]
+
+0.3.1 2019-06-22
+  [ DOCUMENTATION ]
+    - Small improvements.
+
+  [ STATISTICS ]
+    - code churn: 9 files changed, 244 insertions(+), 69 deletions(-)
 
 0.3.0 2017-03-27
   [ ENHANCEMENTS ]
