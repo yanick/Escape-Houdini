@@ -4,6 +4,7 @@ Revision history for Escape-Houdini
   [ API CHANGES ]
 
   [ BUG FIXES ]
+  - Set utf8 flag on all returned values (Askar Timirgazin, GH#6)
 
   [ DOCUMENTATION ]
 
