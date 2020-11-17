@@ -4,6 +4,7 @@ Revision history for Escape-Houdini
   [ API CHANGES ]
 
   [ BUG FIXES ]
+  - Add missing includes for OSX (Brian Fraser, GH#8).
 
   [ DOCUMENTATION ]
 
